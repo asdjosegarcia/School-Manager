@@ -1,0 +1,10 @@
+//////Run proyect (localhost:3000):
+$ npm i 
+$ npm run start
+
+//////Git Commits:
+https://midu.dev/buenas-practicas-escribir-commits-git/
+
+//////Desing:
+https://www.figma.com/design/2tVqRnJSwKDfy7Z1FE1mx6/School-Manger-Mobile?node-id=0-1&t=wy21PISdfScgxxph-0
+
