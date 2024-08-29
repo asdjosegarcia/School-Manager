@@ -1,0 +1,15 @@
+.MainButton{
+    min-width: 7rem;
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    gap: 4px;
+}
+.MainButton svg{
+    height: 1.6rem;
+    width: 1.6rem;
+    fill: white;
+    vertical-align: text-bottom;
+}
