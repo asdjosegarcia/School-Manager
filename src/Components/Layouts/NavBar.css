@@ -1,0 +1,36 @@
+.NavBar{
+    width: 100%;
+    height: 3.7rem;
+    background-color: var(--primary-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    font-family: 'roboto', sans-serif;
+}
+
+.NavBar .button{
+    background-color: #0000;
+    border: none;
+    height: 100%;
+}
+
+.NavBar .title{
+    color: var(--primary-white);
+    font-size: var(--font-size-large);
+    font-weight: medium;
+}
+
+.NavBar .notification-span{
+    background-color: var(--secondary-white);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    font-weight: 800;
+}

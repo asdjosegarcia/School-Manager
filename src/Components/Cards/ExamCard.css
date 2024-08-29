@@ -1,0 +1,20 @@
+.ExamCard{
+    border: 1px solid var(--tertiary-gray);
+    color: var(--primary-gray);
+    padding-bottom: .5rem;
+
+    
+}
+.ExamCard p{
+    margin: .5rem;
+}
+.ExamCard .close{
+    color: red;
+}
+
+.ExamCard .MainButton { 
+    display: block;
+    margin: auto;
+    background-color: var(--primary-blue);
+    color: var(--primary-white)
+}
