@@ -8,6 +8,7 @@ import Home from './App/Home/HomePage';
 import LoginPage from './App/Login/LoginPage';
 import RegistePage from './App/Register/RegisterPage';
 import ExamsPage from './App/Exams/ExamsPage';
+import JoinFieldPage from './App/JoinField/JoinFieldPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,8 @@ root.render(
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={< RegistePage/>} />
         <Route path="/exams" element={< ExamsPage/>} />
+        <Route path="/join-field" element={< JoinFieldPage/>} />
+
 
 
 
