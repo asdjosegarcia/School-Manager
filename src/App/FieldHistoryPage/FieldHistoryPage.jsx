@@ -38,12 +38,12 @@ const FieldHistoryPage = () => {
 
                     <div className='field-map-subject_card'>
                         <span className='field-map-subject'>Didactica general</span>
-                        <span className='field-map-note'>6</span>
+                        <span className='field-map-score'>6</span>
                         <span className='field-map-date'>JULIO <br /> 2024</span>
                     </div>
                     <div className='field-map-subject_card' style={{ backgroundColor: "#696969", color: "white" }}>
                         <span className='field-map-subject'>Didactica general</span>
-                        <span className='field-map-note'>10</span>
+                        <span className='field-map-score'>10</span>
                         <span className='field-map-date'>JULIO <br /> 2025</span>
                     </div>
 
