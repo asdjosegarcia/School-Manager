@@ -15,7 +15,7 @@ const FieldHistoryPage = () => {
         <div className='FieldHistoryPage'>
             <NavBar />
             <header>
-                <h2 className='title'>Examenes</h2>
+                <h2 className='title'>Historial</h2>
                 <img src="/icons/help.svg" alt="" />
             </header>
             <main>

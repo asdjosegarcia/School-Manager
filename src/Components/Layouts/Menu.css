@@ -27,9 +27,15 @@
   grid-template-rows: auto auto;
   align-items: center;
 
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
   font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.Menu .header .title{
+  font-size: 1.4rem;
+
 }
 
 .Menu .header .close {
