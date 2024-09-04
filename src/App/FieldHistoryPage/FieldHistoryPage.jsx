@@ -49,12 +49,17 @@ const FieldHistoryPage = () => {
                     </div>
                     <div className='field-map-year'>{1}ER AÑO</div>
 
+                    <div className='field-map-subject_card' style={{ backgroundColor: "#69696920", }}>
+                        <span className='field-map-subject'>Didactica general</span>
+                        <span className='field-map-score'>10</span>
+                        <span className='field-map-date'>JULIO <br /> 2025</span>
+                    </div>
                     <div className='field-map-subject_card'>
                         <span className='field-map-subject'>Didactica general</span>
                         <span className='field-map-score'>6</span>
                         <span className='field-map-date'>JULIO <br /> 2024</span>
                     </div>
-                    <div className='field-map-subject_card' style={{ backgroundColor: "#696969", color: "white" }}>
+                    <div className='field-map-subject_card' style={{ backgroundColor: "#69696920", }}>
                         <span className='field-map-subject'>Didactica general</span>
                         <span className='field-map-score'>10</span>
                         <span className='field-map-date'>JULIO <br /> 2025</span>

@@ -75,7 +75,7 @@
   display: grid;
   grid-template-columns: 1fr 4rem 1fr;
   width: calc(100% - 2px);
-  background-color: var(--secondary-gray);
+  background-color: var(--primary-white);
   color: var(--primary-gray);
   padding: 0 1px;
   font-size: 1rem;
