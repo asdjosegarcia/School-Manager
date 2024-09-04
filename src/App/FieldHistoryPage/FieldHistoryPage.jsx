@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './FieldHistoryPage.css'
 import NavBar from '../../Components/Layouts/NavBar'
+import ExtraHelp from '../../Components/Modals/ExtraHelp'
+
 
 const FieldHistoryPage = () => {
+    const [getExtraHelp, setExtraHelp] = useState(false)
     ///////////////////////field subjects map generator
     //Then we will make the code to sort 'field-map-subject_card'
 
@@ -16,8 +19,18 @@ const FieldHistoryPage = () => {
             <NavBar />
             <header>
                 <h2 className='title'>Historial</h2>
-                <img src="/icons/help.svg" alt="" />
+                {(getExtraHelp) ?
+                    <img src="/icons/exit.svg" alt="" onClick={() => { setExtraHelp(false); console.log('click') }} />
+                    :
+                    <img src="/icons/help.svg" alt="" onClick={() => { setExtraHelp(true); console.log('click') }} />
+                }
             </header>
+            {getExtraHelp &&
+                <ExtraHelp
+                    subTitle1="¿Qué es? " img1="" text1="Aquí encontrarás las notas que obtuviste durante toda la carrera."
+                    subTitle2="¿Como se divide?" img2="" text2={<>Las notas se muestran divididas por año y materia. <br /> Cada año contiene las notas de las materias que cursaste y su calificación correspondiente.</>}
+                />
+            }
             <main>
                 <section className='field-progress'>
                     <progress className="field-progress-bar" value={fieldProgress} max={100}></progress>
