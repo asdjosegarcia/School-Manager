@@ -10,6 +10,7 @@ import RegistePage from './App/Register/RegisterPage';
 import ExamsPage from './App/Exams/ExamsPage';
 import JoinFieldPage from './App/JoinField/JoinFieldPage';
 import FieldHistoryPage from './App/FieldHistoryPage/FieldHistoryPage';
+import ProfilePage from './App/Profile/ProfilePage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,8 @@ root.render(
         <Route path="/exams" element={< ExamsPage/>} />
         <Route path="/join-field" element={< JoinFieldPage/>} />
         <Route path="/field-history" element={< FieldHistoryPage/>} />
+        <Route path="/profile" element={< ProfilePage/>} />
+
 
 
 
