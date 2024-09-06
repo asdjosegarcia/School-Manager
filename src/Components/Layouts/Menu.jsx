@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Menu.css'
-// import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
+import NotifySVG from '../../SVG/NotifySVG';
 
 const Menu = (props) => {
     const navigate = useNavigate();
@@ -90,8 +90,9 @@ const Menu = (props) => {
                                     Asignaturas
                                 </button>
                                 <button onClick={() => navigate('/management/notifications')}>
-                                    <img src="/icons/notify.svg" alt="" />
-                                    Notificar
+                                    {/* <img src="/icons/bell.svg" alt="" /> */}
+                                    <NotifySVG width={40} fill={"#696969"}/>
+                                    Notificaciónes
                                 </button>
 
                                 <button onClick={() => navigate('/profile')}>

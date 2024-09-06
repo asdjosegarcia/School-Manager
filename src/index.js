@@ -27,6 +27,7 @@ import MProfileById from './App/Management/Profile/[id]/MProfileById';
 import MPSubjetsPage from './App/Management/Professors/[id]/Subjects/MPSubjetsPage';
 import MPStudentsPage from './App/Management/Professors/[id]/Students/MPStudentsPage';
 import MNotificationsPage from './App/Management/Notifications/MNotificationsPage';
+import MNewNotificationPage from './App/Management/Notifications/New/MNewNotificationPage';
 
 
 
@@ -72,6 +73,8 @@ root.render(
 
 
         <Route path="/management/notifications" element={< MNotificationsPage />} />
+        <Route path="/management/notifications/new" element={< MNewNotificationPage />} />
+
 
 
 

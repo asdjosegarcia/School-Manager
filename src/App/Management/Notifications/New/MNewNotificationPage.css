@@ -1,0 +1,62 @@
+.MNewNotificationPage .header{
+    border: 0;
+    /* background-color: red; */
+}
+
+.MNewNotificationPage  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+.MNewNotificationPage  form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 92vw;
+  }
+  .MNewNotificationPage  form .form-group label {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--primary-gray);
+    margin-bottom: 7px;
+  }
+  .MNewNotificationPage form .form-group input {
+    /* width: calc(100% - 40px); */
+    font-size: 1.4rem;
+    background-color: #00000000;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-gray);
+    font-weight: 500;
+    color: var(--primary-gray);
+  }
+
+  .MNewNotificationPage form .form-group input:focus {
+    border-bottom: 2px solid blue;
+  }
+  .MNewNotificationPage form .form-group .content{
+    background-color: #00000000;
+    font-size: 1.4rem;
+    border: 1px solid var(--primary-gray);
+    font-weight: 500;
+    color: var(--primary-gray);
+    min-height: 16.8rem;
+    border-radius: 3px;
+
+
+  }
+  .MNewNotificationPage form .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .MNewNotificationPage form .button-cancel {
+    background-color: #c4fff9;
+    color: #696969;
+  }
