@@ -1,0 +1,11 @@
+.HomePage header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    margin-bottom: 0.7rem;
+  }
+  .HomePage header .title {
+    color: var(--primary-gray);
+    margin: 0;
+  }

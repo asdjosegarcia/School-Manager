@@ -30,7 +30,7 @@ const Menu = (props) => {
                             <img src="/icons/clock.svg" alt="" />
                             Historial
                         </button>
-                        <button onClick={() => navigate('/join-field')}>
+                        <button onClick={() => navigate('/select-field')}>
                             <img src="/icons/hat.svg" alt="" />
                             Carreras
                         </button>
