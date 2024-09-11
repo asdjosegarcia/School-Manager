@@ -1,0 +1,18 @@
+.NotificationPage{
+  color: var(--primary-gray);
+}
+.NotificationPage header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px;
+  margin-bottom: 0.7rem;
+}
+.NotificationPage header .title {
+  color: var(--primary-gray);
+  margin: 0;
+}
+
+.NotificationPage .notification-list {
+  margin: 10px;
+}

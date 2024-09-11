@@ -14,6 +14,7 @@ import ProfilePage from './App/Profile/ProfilePage';
 import SelectFieldPage from './App/SelectField/SelectFieldPage';
 import HelpPage from './App/Help/HelpPage';
 import NavBar from './Components/Layouts/NavBar';
+import NotificationPage from './App/Notification/NotificationPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +31,8 @@ root.render(
         <Route path="/field-history" element={< FieldHistoryPage/>} />
         <Route path="/profile" element={< ProfilePage/>} />
         <Route path="/help" element={< HelpPage/>} />
+        <Route path="/notifications" element={< NotificationPage/>} />
+
 
         
 

@@ -6,6 +6,16 @@
   background-color: #69696927;
   z-index: 1000;
 }
+.background.closed {
+  animation: fadeIn 0.3s ease reverse forwards;
+  display: none;
+  
+}
+.background.open {
+  animation: fadeIn 0.3s ease forwards;
+  display: block;
+
+}
 .Menu {
   width: 75vw;
   max-width: 350px;
@@ -66,16 +76,7 @@
 .Menu button:hover {
   background-color: #69696938;
 }
-.closed {
-  animation: fadeIn 0.3s ease reverse forwards;
-  display: none;
-  
-}
-.open {
-  animation: fadeIn 0.3s ease forwards;
-  display: block;
 
-}
 
 @keyframes fadeIn {
   from {

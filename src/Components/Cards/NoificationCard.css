@@ -1,0 +1,41 @@
+.NoificationCard {
+    border: 1px solid var(--primary-gray);
+    border-top: 8px solid var(--primary-gray) ;
+    border-radius: 5px;
+    padding: 5px 5px 0 5px;
+    position: relative;
+    height: 5.5rem;
+    overflow: hidden;   /* hidde exedent text  */
+    margin-bottom: 10px;
+  
+  }
+  
+ .NoificationCard .title{
+    margin: 5px 0px;
+  }
+ .NoificationCard .text{
+    margin: 0px;
+  }
+ .NoificationCard .arrow{
+    width: calc(100% - 10px);
+    height: 2rem;
+    position: absolute;
+    bottom: 0px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%); 
+  }
+  
+  .NoificationCard.open {
+    border: 1px solid var(--primary-blue);
+    border-top: 8px solid var(--primary-blue) ;
+    height: auto ;
+    position:static ;
+  
+  }
+  .NoificationCard.open .arrow {
+    transform: rotate(180deg);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 90%); 
+    position: relative;
+    bottom: -7px;
+  }
+  
