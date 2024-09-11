@@ -12,6 +12,8 @@ import JoinFieldPage from './App/JoinField/JoinFieldPage';
 import FieldHistoryPage from './App/FieldHistoryPage/FieldHistoryPage';
 import ProfilePage from './App/Profile/ProfilePage';
 import SelectFieldPage from './App/SelectField/SelectFieldPage';
+import HelpPage from './App/Help/HelpPage';
+import NavBar from './Components/Layouts/NavBar';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,6 +29,8 @@ root.render(
         <Route path="/join-field" element={< JoinFieldPage/>} />
         <Route path="/field-history" element={< FieldHistoryPage/>} />
         <Route path="/profile" element={< ProfilePage/>} />
+        <Route path="/help" element={< HelpPage/>} />
+
         
 
 
