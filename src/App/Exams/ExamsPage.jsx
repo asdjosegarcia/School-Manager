@@ -5,18 +5,20 @@ import ExamCard from '../../Components/Cards/ExamCard'
 
 const ExamsPage = () => {
     return (
-        <div className='ExamsPage'>
+        <>
             <NavBar></NavBar>
-            <section className='header'>
-                <h2 className='title'>Examenes</h2>
-                <img src="/icons/help.svg" alt="" />
-            </section>
-            <section className='Exams'>
-            <ExamCard/>
-            <ExamCard/>
+            <div className='ExamsPage'>
+                <section className='header'>
+                    <h2 className='title'>Examenes</h2>
+                    <img src="/icons/help.svg" alt="" />
+                </section>
+                <section className='Exams'>
+                    <ExamCard />
+                    <ExamCard />
 
-            </section>
-        </div>
+                </section>
+            </div>
+        </>
     )
 }
 

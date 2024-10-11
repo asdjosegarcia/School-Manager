@@ -1,0 +1,44 @@
+.JoinFieldCard {
+  width: calc(100% - 10px);
+  background-color: var(--secondary-gray);
+  color: var(--primary-gray);
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0 #696969;
+  position: relative;
+  padding: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  user-select: none; /* new browser*/
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* irefox */
+  -ms-user-select: none; /* Internet Explorer and Edge */
+}
+.JoinFieldCard:hover {
+  background-color: #07beb81e;
+}
+.JoinFieldCard:active {
+  background-color: #07beb875;
+}
+.JoinFieldCard p {
+  margin: 0;
+}
+
+.JoinFieldCard .field-number {
+  position: absolute;
+  bottom: 5px;
+}
+
+.JoinFieldCard .fiel-status {
+  position: absolute;
+  /* color: #28A745; */
+  right: 5px;
+  bottom: 5px;
+  font-weight: 600;
+}
+.JoinFieldCard .open {
+  color: #28a745;
+}
+.JoinFieldCard .close {
+  color: #dc3545;
+}

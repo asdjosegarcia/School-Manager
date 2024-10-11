@@ -3,10 +3,10 @@
 :root {/* global variables */
   --primary-blue: #07BEB8;
   --primary-gray: #696969;
-  --secondary-gray: #69696910;
+  --secondary-gray: #69696920;
   --tertiary-gray: #6969696e; 
 
-  --primary-white: #FFFFFF;
+  --primary-white: #fff;
   --secondary-white: #ffffffe5;
   --font-size-large: 1.5rem;
   --font-size-small: 0.875rem;

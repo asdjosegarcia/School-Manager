@@ -11,7 +11,7 @@ const MainButton = (props) => {
         "color":`${props.color}`,
     }
   return (
-    <button className='MainButton' style={styles} onClick={props.funct}>
+    <button className={`MainButton ${props.className}`} style={styles} onClick={props.funct}>
        <span>{props.text}</span> {props.icon} {/* {props.icon && <img src={props.icon} />} */}
     </button>
   )

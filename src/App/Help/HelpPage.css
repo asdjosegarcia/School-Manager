@@ -1,0 +1,53 @@
+.HelpPage{
+    color: #696969;
+}
+.HelpPage header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px;
+  margin-bottom: 0.7rem;
+}
+
+.HelpPage header .title {
+  color: var(--primary-gray);
+  margin: 0;
+}
+
+.HelpPage main .introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+
+.HelpPage main .frequently-asked-questions{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+
+}
+.HelpPage main .frequently-asked-questions a{
+    padding-top: 1rem;
+    text-decoration: none;
+    color: #0057FF;
+    font-weight: 600;
+}
+
+.HelpPage main  .contact {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.HelpPage main  .contact .MainButton{
+    margin-top: 15px;
+}
+.HelpPage main  .contact .support{
+    background-color: #FF4242;
+}
+

@@ -1,0 +1,60 @@
+.ProfilePage{
+    color: var(--primary-gray);
+
+}
+.ProfilePage header {
+    width: 100%;
+    height: 280px;
+    align-items: center;
+    text-align: center;
+}
+.ProfilePage header .picture{
+    background-color: var(--primary-blue);
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 9px solid var(--secondary-gray);
+    margin: 50px auto 0 auto;
+    /* padding-top: 100px ; */
+}
+.ProfilePage header .picture p{
+    margin-top: 10px;
+}
+.ProfilePage header .username{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.ProfilePage main h2{
+    margin: 30px 5px 20px 5px;
+}
+.ProfilePage main .data-block{
+    padding:10px 5px;
+    width: calc(100% - 10px);
+    display: grid;
+    grid-template-columns: 100px 1fr 30px;
+    align-items: center;
+    z-index: -1;
+}
+.ProfilePage main .odd{
+    background-color: #69696920;
+}
+.ProfilePage main .data-block .value{
+    white-space: nowrap; /* text doesn't go down */
+    overflow: hidden;   /* hidde exedent text  */
+    text-overflow: ellipsis; /* add ... to end of the text */
+}
+
+.ProfilePage footer{
+    height: 50px;
+}
+.ProfilePage footer .MainButton{
+    /* position: fixed; */
+    /* bottom: 5px; */
+    display: block;
+    margin: 0 auto;
+}
+

@@ -1,4 +1,6 @@
 .MainButton{
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
     min-width: 7rem;
     padding: 12px 10px;
     border-radius: 8px;

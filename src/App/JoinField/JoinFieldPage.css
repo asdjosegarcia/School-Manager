@@ -1,0 +1,20 @@
+.JoinFieldPage header{
+    width: 100%;
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    text-align: center;
+    font-size: var(--font-size-large);
+    font-weight: 800;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.JoinFieldPage .MainButton{
+    position: fixed;
+    bottom: 4vh;
+    left: 50%; /* button position in 50% of its container  */
+    transform: translate(-50%, -50%); /* button position -50% of its own body*/
+
+}
