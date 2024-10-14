@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './App/Home/HomePage';
-import LoginPage from './App/Login/LoginPage';
+import { LoginPage } from './App/Login/LoginPage';
 import RegistePage from './App/Register/RegisterPage';
 import ExamsPage from './App/Exams/ExamsPage';
 import JoinFieldPage from './App/JoinField/JoinFieldPage';
