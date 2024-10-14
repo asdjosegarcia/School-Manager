@@ -24,9 +24,9 @@ const FieldHistoryPage = () => {
                     <header>
                         <h2 className='title'>Historial</h2>
                         {(getExtraHelp) ?
-                            <img src="/icons/exit.svg" alt="" onClick={() => { setExtraHelp(false); console.log('click') }} />
+                            <img src="/icons/exit.svg" alt="" onClick={() => { setExtraHelp(false)/* ; console.log('click') */ }} />
                             :
-                            <img src="/icons/help.svg" alt="" onClick={() => { setExtraHelp(true); console.log('click') }} />
+                            <img src="/icons/help.svg" alt="" onClick={() => { setExtraHelp(true)/* ; console.log('click') */ }} />
                         }
                     </header>
                     {getExtraHelp &&

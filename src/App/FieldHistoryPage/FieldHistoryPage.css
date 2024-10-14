@@ -1,3 +1,6 @@
+.FieldHistoryPage .container{
+  position: relative;
+}
 .FieldHistoryPage header {
   display: flex;
   justify-content: space-between;
