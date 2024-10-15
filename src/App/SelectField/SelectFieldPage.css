@@ -1,3 +1,6 @@
+.SelectFieldPage .container{
+  position: relative;
+}
 .SelectFieldPage header {
   display: flex;
   justify-content: space-between;
@@ -16,9 +19,12 @@
   align-items: center;
   text-align: center;
   color: #696969;
+  min-height: 75vh;
 }
 .SelectFieldPage .field-list .field-box {
   margin-top: 2rem;
+  width: 300px;
+
 }
 .SelectFieldPage .field-list .field-box img {
   border-radius: 10px;
@@ -37,4 +43,39 @@
 .SelectFieldPage .field-list .add-field img {
   background-color: #17c500;
   border: 5px solid #69696965;
+}
+.SelectFieldPage .container .app-info{
+  width: 100%;
+  text-align: center;
+  color: var(--primary-gray);
+  font-weight: 500;
+  margin-top: 30px;
+  /* position: absolute; */
+  /* bottom: 20px; */
+}
+.SelectFieldPage .container .app-info p, .SelectFieldPage .container .app-info h2{
+  margin: 0 0 5px 0px;
+}
+@media (min-width: 700px) {
+  .SelectFieldPage{
+    display: grid;
+    position: relative;
+    min-width: 700px;
+    max-width: 1400px;
+    margin: 0 auto;
+    grid-template-columns: auto 1fr;
+    padding: 0 10px;
+  }
+
+  .SelectFieldPage .field-list{
+    flex-direction: row; 
+    flex-wrap: wrap; /* allow elemnts to create a next line of elements */
+    justify-content: center; 
+    align-items: start; 
+    padding-top: 20px;
+
+  }
+  .SelectFieldPage .field-list .field-box {
+    margin: 50px;
+  }
 }

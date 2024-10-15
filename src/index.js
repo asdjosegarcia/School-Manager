@@ -13,7 +13,6 @@ import FieldHistoryPage from './App/FieldHistoryPage/FieldHistoryPage';
 import ProfilePage from './App/Profile/ProfilePage';
 import SelectFieldPage from './App/SelectField/SelectFieldPage';
 import HelpPage from './App/Help/HelpPage';
-import NavBar from './Components/Layouts/NavBar';
 import NotificationPage from './App/Notification/NotificationPage';
 
 
