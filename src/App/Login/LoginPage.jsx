@@ -1,5 +1,5 @@
 import { LoginForm } from './LoginForm';
-import '../../Styles/LoginPage.css';
+import './LoginPage.css';
 
 function LoginPage(){
   return(
