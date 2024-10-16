@@ -1,4 +1,4 @@
-.NotificationPage{
+.NotificationPage {
   color: var(--primary-gray);
 }
 .NotificationPage header {
@@ -15,4 +15,20 @@
 
 .NotificationPage .notification-list {
   margin: 10px;
+}
+@media (min-width: 700px) {
+  .NotificationPage {
+    display: grid;
+    position: relative;
+    /* width: 80%; */
+    min-width: 700px;
+    max-width: 1400px;
+    margin: 0 auto;
+    grid-template-columns: auto 1fr;
+    padding: 0 10px;
+  }
+  .NotificationPage .container{
+    position: relative;
+  }
+  
 }
