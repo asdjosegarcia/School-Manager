@@ -14,6 +14,8 @@ import ProfilePage from './App/Profile/ProfilePage';
 import SelectFieldPage from './App/SelectField/SelectFieldPage';
 import HelpPage from './App/Help/HelpPage';
 import NotificationPage from './App/Notification/NotificationPage';
+import StudentsPage from './App/Management/Students/StudentsPage';
+import FieldsPage from './App/Management/FIelds/FieldsPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +33,19 @@ root.render(
         <Route path="/profile" element={< ProfilePage/>} />
         <Route path="/help" element={< HelpPage/>} />
         <Route path="/notifications" element={< NotificationPage/>} />
+
+        {/* Management///////////////////////////////////////////////////////////////// */}
+        <Route path="/management" element={< StudentsPage/>} />
+        <Route path="/management/students" element={< StudentsPage/>} />
+        <Route path="/management/fields" element={< FieldsPage />} />
+
+        {/* <Route path="/management/students" element={< StudentsPage/>} /> */}
+
+
+
+
+
+        
 
 
         
