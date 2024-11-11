@@ -43,7 +43,6 @@
     background-color: #69696920;
 }
 .ProfilePage main .data-block .value{
-    white-space: nowrap; /* text doesn't go down */
     overflow: hidden;   /* hidde exedent text  */
     text-overflow: ellipsis; /* add ... to end of the text */
 }
