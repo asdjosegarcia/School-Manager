@@ -3,12 +3,12 @@ import NavBar from '../../../Components/Layouts/NavBar'
 import HeaderTitle from '../../../Components/Layouts/HeaderTitle'
 import SearchInput from '../../../Components/Inputs/SearchInput'
 import GenericHorizontalCard from '../../../Components/Cards/GenericHorizontalCard'
-import FieldSVG from '../../../SVG/FieldSVG'
-import './FieldsPage.css'
+import FieldSVG from '../../../SVG/SubjectSVG'
+import './SubjectsPage.css'
 
-const FieldsPage = () => {
+const SubjectsPage = () => {
   return (
-    <div className='FieldsPage'>
+    <div className='SubjectsPage'>
       <NavBar />
       <HeaderTitle title={"Asignaturas"}
         helpTitle1={"¿Que maneja esta seccion?"} helpText1={<>Aquí encontraras a todas las Asignaturas de la carrera listas para tu gestión.</>}
@@ -34,4 +34,4 @@ const FieldsPage = () => {
   )
 }
 
-export default FieldsPage
+export default SubjectsPage
