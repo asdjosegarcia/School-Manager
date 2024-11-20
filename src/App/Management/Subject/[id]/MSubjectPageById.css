@@ -1,7 +1,7 @@
-.SubjectPageById .GenericHorizontalCard {
+.MSubjectPageById .GenericHorizontalCard {
   border-bottom: none;
 }
-.SubjectPageById .subject-card {
+.MSubjectPageById .subject-card {
   width: 100%;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -11,7 +11,7 @@
   font-weight: 500;
   font-size: 1.2rem;
 }
-.SubjectPageById .subject-card .image {
+.MSubjectPageById .subject-card .image {
   grid-row: 1/3;
   grid-column: 1/2;
   width: 60px;
@@ -19,7 +19,7 @@
   object-fit: cover;
   margin-right: 15px;
 }
-.SubjectPageById .subject-card .name {
+.MSubjectPageById .subject-card .name {
   grid-row: 1/3;
   grid-column: 2/4;
   margin: 0;
@@ -27,7 +27,7 @@
   text-align: center;
   /* margin  : 0; */
 }
-.SubjectPageById .field .data{
+.MSubjectPageById .field .data{
     font-size: 1.2rem;
     color: #696969;
     font-weight: 500;
@@ -36,7 +36,7 @@
 
 }
 
-.SubjectPageById .main button {
+.MSubjectPageById .main button {
   width: 100%;
   background-color: #00000000;
   color: #696969;
@@ -50,7 +50,7 @@
   border: none;
   border-bottom: 1px solid var(--tertiary-gray);
 }
-.SubjectPageById .main button:first-child {
+.MSubjectPageById .main button:first-child {
   /* only firts buttom */
   border: 1px solid var(--tertiary-gray);
 }

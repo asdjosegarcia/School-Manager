@@ -4,11 +4,11 @@ import HeaderTitle from '../../../Components/Layouts/HeaderTitle'
 import SearchInput from '../../../Components/Inputs/SearchInput'
 import GenericHorizontalCard from '../../../Components/Cards/GenericHorizontalCard'
 import FieldSVG from '../../../SVG/SubjectSVG'
-import './SubjectsPage.css'
+import './MSubjectsPage.css'
 
-const SubjectsPage = () => {
+const MSubjectsPage = () => {
   return (
-    <div className='SubjectsPage'>
+    <div className='MSubjectsPage'>
       <NavBar />
       <HeaderTitle title={"Asignaturas"}
         helpTitle1={"¿Que maneja esta seccion?"} helpText1={<>Aquí encontraras a todas las Asignaturas de la carrera listas para tu gestión.</>}
@@ -34,4 +34,4 @@ const SubjectsPage = () => {
   )
 }
 
-export default SubjectsPage
+export default MSubjectsPage

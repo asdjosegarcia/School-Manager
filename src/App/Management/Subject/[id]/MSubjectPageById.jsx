@@ -1,5 +1,5 @@
 import React, { } from 'react'
-import './SubjectPageById.css'
+import './MSubjectPageById.css'
 import { useParams } from 'react-router-dom';
 import HeaderTitle from '../../../../Components/Layouts/HeaderTitle';
 import NavBar from '../../../../Components/Layouts/NavBar';
@@ -8,10 +8,10 @@ import FieldSVG from '../../../../SVG/FieldSVG';
 import SubjectSVG from '../../../../SVG/SubjectSVG';
 
 
-const SubjectPageById = () => {
+const MSubjectPageById = () => {
   const { id } = useParams();
   return (
-    <div className='SubjectPageById'>
+    <div className='MSubjectPageById'>
       <NavBar />
       <HeaderTitle title={"Asignaturas"} />
       <GenericHorizontalCard
@@ -46,4 +46,4 @@ const SubjectPageById = () => {
   )
 }
 
-export default SubjectPageById
+export default MSubjectPageById

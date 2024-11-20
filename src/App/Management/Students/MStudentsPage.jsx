@@ -4,13 +4,13 @@ import HeaderTitle from '../../../Components/Layouts/HeaderTitle'
 import SearchInput from '../../../Components/Inputs/SearchInput'
 import MainButton from '../../../Components/Buttons/MainButton'
 import StudentCard from '../../../Components/Cards/StudentCard'
-import './StudentsPage.css'
+import './MStudentsPage.css'
 
 
 
-const StudentsPage = () => {
+const MStudentsPage = () => {
     return (
-        <div className='StudentsPage'>
+        <div className='MStudentsPage'>
             <NavBar />
             <HeaderTitle title={"Alumnos"}
                 helpTitle1={"¿Que maneja esta seccion?"} helpText1={<>Aquí encontraras a todos los alumnos registrados en la carrera.</>}
@@ -32,4 +32,4 @@ const StudentsPage = () => {
     )
 }
 
-export default StudentsPage
+export default MStudentsPage

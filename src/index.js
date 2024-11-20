@@ -14,9 +14,9 @@ import ProfilePage from './App/Profile/ProfilePage';
 import SelectFieldPage from './App/SelectField/SelectFieldPage';
 import HelpPage from './App/Help/HelpPage';
 import NotificationPage from './App/Notification/NotificationPage';
-import StudentsPage from './App/Management/Students/StudentsPage';
-import SubjectsPage from './App/Management/Subject/SubjectsPage';
-import FieldPageById from './App/Management/Subject/[id]/SubjectPageById';
+import MStudentsPage from './App/Management/Students/MStudentsPage';
+import MSubjectsPage from './App/Management/Subject/MSubjectsPage';
+import FieldPageById from './App/Management/Subject/[id]/MSubjectPageById';
 import MExamsPage from './App/Management/Exams/MExamsPage';
 
 
@@ -37,10 +37,10 @@ root.render(
         <Route path="/notifications" element={< NotificationPage/>} />
 
         {/* Management///////////////////////////////////////////////////////////////// */}
-        <Route path="/management" element={< StudentsPage/>} />
-        <Route path="/management/students" element={< StudentsPage/>} />
+        <Route path="/management" element={< MStudentsPage/>} />
+        <Route path="/management/students" element={< MStudentsPage/>} />
         <Route path="/management/exams" element={< MExamsPage/>} />
-        <Route path="/management/subjects" element={< SubjectsPage />} />
+        <Route path="/management/subjects" element={< MSubjectsPage />} />
         <Route path="/management/subjects/:id" element={< FieldPageById />} />
 
 

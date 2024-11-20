@@ -1,7 +1,7 @@
-.StudentsPage main {
+.MStudentsPage main {
   display: flex;
 }
-.StudentsPage .MainButton {
+.MStudentsPage .MainButton {
     /* position: relative; */
   width: 90%;
   background-color: #17c500;
@@ -13,6 +13,6 @@
   
 }
 
-.StudentsPage .student-list{
+.MStudentsPage .student-list{
     border-top: 1px solid var(--secondary-gray);
 }
