@@ -1,0 +1,11 @@
+.MExamsPage .GenericHorizontalCard{
+    border-bottom: none  ;
+}
+
+.MExamsPage .MainButton{
+    background-color: #17C500;
+    margin: 10px auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between
+}

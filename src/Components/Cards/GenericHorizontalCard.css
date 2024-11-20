@@ -15,8 +15,9 @@
     grid-column: 1/2;  
     /* border: 2px solid  #17C500; */
     width: 60px; 
-    border-radius: 50%; 
+    /* border-radius: 50%;  */
     object-fit: cover; 
+    margin: auto 0;
     margin-right: 15px; 
 }
 .GenericHorizontalCard .name{
