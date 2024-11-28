@@ -19,6 +19,7 @@ import MSubjectsPage from './App/Management/Subject/MSubjectsPage';
 import FieldPageById from './App/Management/Subject/[id]/MSubjectPageById';
 import MExamsPage from './App/Management/Exams/MExamsPage';
 import MNewExamPage from './App/Management/Exams/New/MNewExamPage';
+import MExamPageById from './App/Management/Exams/[id]/MExamPageById';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -42,6 +43,7 @@ root.render(
         <Route path="/management/students" element={< MStudentsPage/>} />
         <Route path="/management/exams" element={< MExamsPage/>} />
         <Route path="/management/exams/new" element={< MNewExamPage/>} />
+        <Route path="/management/exams/:id" element={< MExamPageById />} />
         <Route path="/management/subjects" element={< MSubjectsPage />} />
         <Route path="/management/subjects/:id" element={< FieldPageById />} />
 

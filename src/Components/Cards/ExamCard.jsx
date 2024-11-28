@@ -10,7 +10,7 @@ let MainButtonText ='Inscribirme'
 const ExamCard = (props) => {
   if(!props.inscribed){ //this if give styles to botton  (inscripto)
     MainButtonBackground= '#28A745';
-    MainButtonIcon= <CheckSVG ></CheckSVG>
+    MainButtonIcon= <CheckSVG height={24} ></CheckSVG>
     MainButtonText= "Inscripto"
   }
 

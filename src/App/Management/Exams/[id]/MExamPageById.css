@@ -1,0 +1,31 @@
+.MExamPageById .GenericHorizontalCard{
+    border-bottom: 0px;
+}
+.MExamPageById  .main .info-box{
+    width: 100%;
+    border-top:1px solid var(--primary-gray);
+    border-bottom:1px solid var(--primary-gray);
+    color: var(--primary-gray);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    /* padding: 10px 0; */
+}
+.MExamPageById .main .info-box .info-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 2px;
+}
+.MExamPageById .bottom{
+    width: 100%;
+    /* margin: 0 auto; */
+    position: absolute;
+    bottom: 10px;
+
+}
+.MExamPageById .bottom .MainButton{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
