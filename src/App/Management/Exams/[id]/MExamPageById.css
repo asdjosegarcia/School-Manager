@@ -8,8 +8,7 @@
     color: var(--primary-gray);
     font-weight: 500;
     font-size: 1.2rem;
-    margin: 10px 0;
-    /* padding: 10px 0; */
+    margin: 10px 0 0 0;
 }
 .MExamPageById .main .info-box .info-row{
     display: flex;
@@ -18,7 +17,6 @@
 }
 .MExamPageById .bottom{
     width: 100%;
-    /* margin: 0 auto; */
     position: absolute;
     bottom: 10px;
 
@@ -28,4 +26,33 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+}
+.MExamPageById .results .title{
+    margin:  4px 0;
+    color: var(--primary-gray);
+    font-weight: 500;
+    position: relative;
+
+
+    /* background-color: red; */
+}
+.MExamPageById .results .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 4px;
+    background-color: var(--primary-gray);
+    color: white;
+
+}
+.MExamPageById .results .result_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 4px;
+    background-color: var(--primary-white);
+    color: var(--primary-gray);
+    font-size: 1rem;
+    align-items: center;
+    min-height: 45px;
+    position: relative;
+
 }
