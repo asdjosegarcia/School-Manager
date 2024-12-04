@@ -20,6 +20,7 @@ import MSubjectPageByIdPageById from './App/Management/Subject/[id]/MSubjectPage
 import MExamsPage from './App/Management/Exams/MExamsPage';
 import MNewExamPage from './App/Management/Exams/New/MNewExamPage';
 import MExamPageById from './App/Management/Exams/[id]/MExamPageById';
+import MProfesorsPage from './App/Management/Professors/MProfesorsPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,25 +30,29 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={< RegistePage/>} />
-        <Route path="/exams" element={< ExamsPage/>} />
-        <Route path="/select-field" element={< SelectFieldPage/>} />
-        <Route path="/join-field" element={< JoinFieldPage/>} />
-        <Route path="/field-history" element={< FieldHistoryPage/>} />
-        <Route path="/profile" element={< ProfilePage/>} />
-        <Route path="/help" element={< HelpPage/>} />
-        <Route path="/notifications" element={< NotificationPage/>} />
+        <Route path="/register" element={< RegistePage />} />
+        <Route path="/exams" element={< ExamsPage />} />
+        <Route path="/select-field" element={< SelectFieldPage />} />
+        <Route path="/join-field" element={< JoinFieldPage />} />
+        <Route path="/field-history" element={< FieldHistoryPage />} />
+        <Route path="/profile" element={< ProfilePage />} />
+        <Route path="/help" element={< HelpPage />} />
+        <Route path="/notifications" element={< NotificationPage />} />
 
         {/* Management///////////////////////////////////////////////////////////////// */}
-        <Route path="/management" element={< MStudentsPage/>} />
-        <Route path="/management/students" element={< MStudentsPage/>} />
+        <Route path="/management" element={< MStudentsPage />} />
+        <Route path="/management/students" element={< MStudentsPage />} />
 
-        <Route path="/management/exams" element={< MExamsPage/>} />
-        <Route path="/management/exams/new" element={< MNewExamPage/>} />
+        <Route path="/management/exams" element={< MExamsPage />} />
+        <Route path="/management/exams/new" element={< MNewExamPage />} />
         <Route path="/management/exams/:id" element={< MExamPageById />} />
 
         <Route path="/management/subjects" element={< MSubjectsPage />} />
         <Route path="/management/subjects/:id" element={< MSubjectPageByIdPageById />} />
+
+        <Route path="/management/professors/" element={<MProfesorsPage/>} />
+        
+
 
 
 
@@ -57,10 +62,10 @@ root.render(
 
 
 
-        
 
 
-        
+
+
 
 
 
@@ -69,7 +74,7 @@ root.render(
         {/* Otras rutas pueden ir aquí */}
       </Routes>
     </Router>
-    
+
   </React.StrictMode>
 );
 
