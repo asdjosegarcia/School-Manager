@@ -1,0 +1,86 @@
+.MNewStudentPage{
+  min-height: 100vh ;
+  position: relative;
+
+
+
+}
+.MNewStudentPage .main form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.MNewStudentPage .main form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 92vw;
+}
+
+.MNewStudentPage .main form .form-group label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--primary-gray);
+  margin-bottom: 7px;
+}
+
+.MNewStudentPage .main form .form-group select {
+  /* width: 92vw; */
+  padding: 8px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 4px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo blanco */
+  /* appearance: none; */ /* Oculta el ícono nativo del navegador (opcional) */
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-gray);
+  white-space: normal;
+}
+.MNewStudentPage .main form .form-group select.slate {
+  height: 300px;
+  background-color: red;
+}
+
+.MNewStudentPage .main form .form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+  white-space: normal;
+}
+
+.MNewStudentPage .main form .form-group input {
+  /* width: calc(100% - 40px); */
+  font-size: 1.4rem;
+  background-color: #00000000;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--primary-gray);
+  font-weight: 500;
+  color: var(--primary-gray);
+}
+
+.MNewStudentPage .main form .form-group input:focus {
+  border-bottom: 2px solid blue;
+}
+
+.MNewStudentPage .main form .form-group .vocals {
+  height: 8rem;
+  font-size: 1.4rem;
+  color: var(--primary-gray);
+  font-weight: 500;
+}
+
+.MNewStudentPage .main form .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 30px);
+  position: absolute;
+  bottom: 10px;
+}
+
+.MNewStudentPage .main form .button-cancel {
+  background-color: #c4fff9;
+  color: #696969;
+}
