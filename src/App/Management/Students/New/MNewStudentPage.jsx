@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MNewStudentPage.css'
 import NavBar from '../../../../Components/Layouts/NavBar'
 import HeaderTitle from '../../../../Components/Layouts/HeaderTitle'
 import DropdownSelect from '../../../../Components/Inputs/DropdownSelect'
 import MainButton from '../../../../Components/Buttons/MainButton'
+import BigGenericModal from '../../../../Components/Modals/BigGenericModal'
+import CircleCheckSVG from '../../../../SVG/CircleCheckSVG'
 
 const MNewStudentPage = () => {
+    const [getBigGenericModal, setBigGenericModal] = useState(true)
+
     const handleSubmit = (e) => {
         e.preventDefault();
         // here we can use form data
@@ -19,6 +23,16 @@ const MNewStudentPage = () => {
                 helpTitle3={""} helpText3={<></>}
             />
             <section className='main'>
+                {getBigGenericModal &&
+                    <BigGenericModal
+                         icon={<CircleCheckSVG height={100} className={"image"} fill="#17C500"/>}
+                        title={"Registro Exitoso"}
+                        text={<>Dale estos datos a<br />{"nombre Apellido"}</>}
+                        user={"123456789"}
+                        password={"123456789"}
+                        close={()=>setBigGenericModal()}
+                    />
+                }
 
                 <form action="" onSubmit={handleSubmit}>
                     <div className="form-group">
@@ -66,7 +80,7 @@ const MNewStudentPage = () => {
 
                     <div className='buttons-container'>
                         <MainButton text={"Cancelar"} className={"button-cancel"} />
-                        <MainButton text={"Registrar"} className={"button-register"} />
+                        <MainButton text={"Registrar"} className={"button-register"} funct={()=>{setBigGenericModal(true)}} />
                     </div>
                 </form>
             </section>
