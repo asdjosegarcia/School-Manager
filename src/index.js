@@ -23,6 +23,7 @@ import MExamPageById from './App/Management/Exams/[id]/MExamPageById';
 import MProfesorsPage from './App/Management/Professors/MProfesorsPage';
 import MProfesorsPageById from './App/Management/Professors/[id]/MProfesorsPageById';
 import MNewStudentPage from './App/Management/Students/New/MNewStudentPage';
+import MProfileById from './App/Management/Profile/[id]/MProfileById';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -56,6 +57,9 @@ root.render(
 
         <Route path="/management/professors/" element={<MProfesorsPage/>} />
         <Route path="/management/professors/:id" element={< MProfesorsPageById />} />
+
+        <Route path="/management/profile/:id" element={<MProfileById/>} />
+
 
 
 

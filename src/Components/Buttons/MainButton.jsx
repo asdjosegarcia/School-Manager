@@ -16,6 +16,10 @@ const MainButton = (props) => {
 export default MainButton
 /* 
 //how to use
+
+import MainButton from '../../../../Components/Buttons/MainButton'
+
+
    <MainButton 
     text={"Registrar"}
     className={"button-register"} 
