@@ -1,0 +1,19 @@
+.SmallConfimation{
+    border-radius: 5px;
+    border: 2px solid  #696969;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+}
+.SmallConfimation .buttons-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.SmallConfimation .buttons-container .MainButton{
+    margin: 10px;
+}

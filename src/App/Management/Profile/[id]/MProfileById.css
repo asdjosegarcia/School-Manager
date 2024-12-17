@@ -1,7 +1,17 @@
 .MProfileById{
     color: var(--primary-gray);
+    /* display: flex; */
+    /* position: relative; */
 
 }
+.MProfileById .SmallConfimation{
+    /* margin-top: 10px; */
+    position: relative;
+    margin: 10px;
+    /* top: 100%; */
+    /* transform: translateY(-50%); */
+}
+
 .MProfileById header {
     width: 100%;    
 }
@@ -11,7 +21,7 @@
     margin: 0 auto;
     padding: 6px;
     margin-bottom: 20px;
-
+    font-weight: 500;
 }
 /* .MProfileById header .picture{
     background-color: var(--primary-blue);

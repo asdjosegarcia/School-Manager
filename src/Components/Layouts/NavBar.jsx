@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const NavBar = (props) => {
     const navigate = useNavigate();
     const [getMenu, setMenu] = useState(false);
+    
 
     return (
         <>
@@ -26,7 +27,7 @@ const NavBar = (props) => {
                     </button>
 
                 </div>
-            <Menu getMenu={getMenu} setMenu={setMenu} />
+            <Menu getMenu={getMenu} setMenu={setMenu}  role={props.role}/>
             </div>
         </>
     )

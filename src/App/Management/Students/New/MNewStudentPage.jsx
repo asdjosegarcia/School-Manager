@@ -16,7 +16,7 @@ const MNewStudentPage = () => {
     };
     return (
         <div className='MNewStudentPage'>
-            <NavBar />
+            <NavBar  role={"management"}/>
             <HeaderTitle title={"Registrar Alumno"}
                 helpTitle1={"¿Qué maneja esta seccion?"} helpText1={<>Aquí ingresaras los datos de los alumos que ingresen a la carrera uno a uno.</>}
                 helpTitle2={"¿Como relleno el formulario?"} helpText2={<>Solo debes ingresar los datos de el nuevo alumno segun lo requiera cada casilla. <br />En caso de ingresar algún dato de manera incorrecta, la aplicación te lo hará saber. </>}

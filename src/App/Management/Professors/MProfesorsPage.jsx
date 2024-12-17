@@ -13,7 +13,7 @@ import ProfessorSVG from '../../../SVG/ProfessorSVG'
 const MProfesorsPage = () => {
   return (
     <div className='MProfesorsPage'>
-      <NavBar />
+      <NavBar  role={"management"}/>
       <HeaderTitle title={"Profesores"}
         helpTitle1={"¿Qué maneja esta seccion?"} helpText1={<>Aquí encontraras a todos los Profesores registrados en la carrera.</>}
         helpTitle2={"¿Como busco un Profesor?"} helpText2={<>Solo debes dar click en el cuadro "DNI o Nombre del Profesor" y escribir el nombre o DNI del Profesor que buscas.</>}

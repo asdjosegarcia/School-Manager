@@ -10,7 +10,7 @@ import SimpleHorizontalButton from '../../../../Components/Buttons/SimpleHorizon
 const MProfesorsPageById = () => {
     return (
         <div className='MProfesorsPageById'>
-            <NavBar />
+            <NavBar  role={"management"}/>
             <HeaderTitle title={"Profesores"}
                 helpTitle1={"¿Qué maneja esta seccion?"} helpText1={<>Aquí encontraras a todos los Profesores registrados en la carrera.</>}
                 helpTitle2={"¿Como busco un Profesor?"} helpText2={<>Solo debes dar click en el cuadro "DNI o Nombre del Profesor" y escribir el nombre o DNI del Profesor que buscas.</>}

@@ -44,6 +44,8 @@ root.render(
 
         {/* Management///////////////////////////////////////////////////////////////// */}
         <Route path="/management" element={< MStudentsPage />} />
+
+
         <Route path="/management/students" element={< MStudentsPage />} />
         <Route path="/management/students/new" element={< MNewStudentPage />} />
 
@@ -57,6 +59,8 @@ root.render(
 
         <Route path="/management/professors/" element={<MProfesorsPage/>} />
         <Route path="/management/professors/:id" element={< MProfesorsPageById />} />
+        <Route path="/management/professors/" element={<MProfesorsPage/>} />
+
 
         <Route path="/management/profile/:id" element={<MProfileById/>} />
 

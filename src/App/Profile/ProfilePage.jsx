@@ -10,7 +10,7 @@ const ProfilePage = () => {
         <>
             <NavBar />
             <div className='ProfilePage'>
-                <Menu />
+                <Menu  role={"management"}/>
                 <div className='container'>
                     <header>
                         <div className='picture'> <p>U</p></div>

@@ -24,7 +24,7 @@ import MainButton from '../../../../Components/Buttons/MainButton'
     text={"Registrar"}
     className={"button-register"} 
     funct={()=>{setBigGenericModal(true)}} 
-    backgroud={"#696969"}
+    background={"#696969"}
     color={"#fff"}
     />
 

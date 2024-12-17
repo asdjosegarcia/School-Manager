@@ -19,7 +19,7 @@ const MNewExamPage = () => {
     };
     return (
         <div className='MNewExamPage'>
-            <NavBar />
+            <NavBar  role={"management"}/>
             <HeaderTitle title={"Examenes"} />
             <GenericHorizontalCard title={"Prof. ed sec en Biologia"} data={"ID:43432"} image={<FieldSVG fill="#17C500" className={"image"} />} />
             <section className='main'>

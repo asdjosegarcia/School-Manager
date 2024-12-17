@@ -10,7 +10,7 @@ import SubjectSVG from '../../../SVG/SubjectSVG'
 const MSubjectsPage = () => {
   return (
     <div className='MSubjectsPage'>
-      <NavBar />
+      <NavBar  role={"management"}/>
       <HeaderTitle title={"Asignaturas"}
         helpTitle1={"¿Que maneja esta seccion?"} helpText1={<>Aquí encontraras a todas las Asignaturas de la carrera listas para tu gestión.</>}
         helpTitle2={"¿Como busco una materia?"} helpText2={<>Solo debes dar click en el cuadro "ID o Nombre del Asignatura" y escribir el ID o Nombre del Asignatura que buscas.</>}

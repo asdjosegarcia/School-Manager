@@ -14,7 +14,7 @@ const MExamPageById = () => {
 
     return (
         <div className='MExamPageById'>
-            <NavBar></NavBar>
+            <NavBar role={"management"} />
             <HeaderTitle title={"Exámenes"}></HeaderTitle>
             <GenericHorizontalCard title={"Prof. ed sec en Biologia"} data={"ID:43432"} image={<FieldSVG fill="#17C500" className={"image"} />} />
             <GenericHorizontalCard title={"Biologia orientada a la educación"} data={"ID:53212"} image={<ExamSVG fill="#17C500" className={"image"} width="50" height="50" />} />

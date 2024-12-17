@@ -15,7 +15,7 @@ const MExamsPage = () => {
   return (
 
     <div className='MExamsPage'>
-      <NavBar />
+      <NavBar  role={"management"}/>
       <HeaderTitle title={"Exámenes"} />
       <GenericHorizontalCard title={"Prof. ed sec en Biologia"} data={"ID:43432"} image={<FieldSVG fill="#17C500" className={"image"} />} />
       <SearchInput placeholder={'ID,Fecha o Nombre'} />

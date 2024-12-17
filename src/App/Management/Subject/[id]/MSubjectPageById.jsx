@@ -12,7 +12,7 @@ const MSubjectPageById = () => {
   const { id } = useParams();
   return (
     <div className='MSubjectPageById'>
-      <NavBar />
+      <NavBar  role={"management"}/>
       <HeaderTitle title={"Asignaturas"} />
       <GenericHorizontalCard
         image={<FieldSVG className={"image"} fill={"#17C500"} />}
