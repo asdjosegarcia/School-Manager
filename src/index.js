@@ -24,7 +24,9 @@ import MProfesorsPage from './App/Management/Professors/MProfesorsPage';
 import MProfesorsPageById from './App/Management/Professors/[id]/MProfesorsPageById';
 import MNewStudentPage from './App/Management/Students/New/MNewStudentPage';
 import MProfileById from './App/Management/Profile/[id]/MProfileById';
-import MSubjetsPage from './App/Management/Professors/[id]/Subjects/MSubjetsPage';
+import MPSubjetsPage from './App/Management/Professors/[id]/Subjects/MPSubjetsPage';
+import MPStudentsPage from './App/Management/Professors/[id]/Students/MPStudentsPage';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -57,12 +59,16 @@ root.render(
 
         <Route path="/management/subjects" element={< MSubjectsPage />} />
         <Route path="/management/subjects/:id" element={< MSubjectPageByIdPageById />} />
-        <Route path="/management/subjects/:id/Subjects" element={< MSubjetsPage />} />
 
 
         <Route path="/management/professors/" element={<MProfesorsPage/>} />
         <Route path="/management/professors/:id" element={< MProfesorsPageById />} />
         <Route path="/management/professors/" element={<MProfesorsPage/>} />
+        <Route path="/management/professors/:id/subjects" element={< MPSubjetsPage />} />
+        <Route path="/management/professors/:id/students" element={< MPStudentsPage />} />
+
+
+
 
 
         <Route path="/management/profile/:id" element={<MProfileById/>} />

@@ -1,9 +1,9 @@
-.MSubjetsPage .subtitle {
+.MPSubjetsPage .subtitle {
   color: var(--primary-gray);
   font-weight: 500;
   font-size: 1.6rem;
   margin: 10px 0 10px 5px;
 }
-.MSubjetsPage main{
+.MPSubjetsPage main{
     border-top: 1px solid var(--tertiary-gray);
 }

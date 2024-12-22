@@ -4,13 +4,13 @@ import HeaderTitle from '../../../../../Components/Layouts/HeaderTitle'
 import GenericHorizontalCard from '../../../../../Components/Cards/GenericHorizontalCard'
 import FieldSVG from '../../../../../SVG/FieldSVG'
 import ProfessorSVG from '../../../../../SVG/ProfessorSVG'
-import './MSubjetsPage.css'
+import './MPSubjetsPage.css'
 import SubjectSVG from '../../../../../SVG/SubjectSVG'
 
 
-const MSubjetsPage = () => {
+const MPSubjetsPage = () => {
   return (
-    <div className='MSubjetsPage'>
+    <div className='MPSubjetsPage'>
       <NavBar role={"management"} />
       <HeaderTitle title={"Profesores"}
         helpTitle1={"¿Qué maneja esta seccion?"} helpText1={<>Aquí encontraras todas las Asignaturas que maneja este Profesor.</>}
@@ -28,4 +28,4 @@ const MSubjetsPage = () => {
   )
 }
 
-export default MSubjetsPage
+export default MPSubjetsPage
