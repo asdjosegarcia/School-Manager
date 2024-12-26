@@ -1,0 +1,21 @@
+.MNotificationsPage .header {
+    border: none;
+}
+.MNotificationsPage main{
+    padding-top: 10px;
+}
+
+.MNotificationsPage  .MainButton{
+    width: 90%;
+    background-color: #17c500;
+    margin-top: 10px;
+    align-items: center;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MNotificationsPage .notifications-list{
+    border-top: 1px solid var(--tertiary-gray);
+
+}

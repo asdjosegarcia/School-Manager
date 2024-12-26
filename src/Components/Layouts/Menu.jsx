@@ -89,6 +89,11 @@ const Menu = (props) => {
                                     <img src="/icons/hat.svg" alt="" />
                                     Asignaturas
                                 </button>
+                                <button onClick={() => navigate('/management/notifications')}>
+                                    <img src="/icons/notify.svg" alt="" />
+                                    Notificar
+                                </button>
+
                                 <button onClick={() => navigate('/profile')}>
                                     <img src="/icons/person.svg" alt="" />
                                     Perfil
