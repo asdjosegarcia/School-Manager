@@ -1,0 +1,86 @@
+.MProfileById{
+    color: var(--primary-gray);
+    /* display: flex; */
+    /* position: relative; */
+
+}
+.MProfileById .SmallConfimation{
+    /* margin-top: 10px; */
+    position: relative;
+    margin: 10px;
+    /* top: 100%; */
+    /* transform: translateY(-50%); */
+}
+
+.MProfileById header {
+    width: 100%;    
+}
+.MProfileById header .MainButton{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 6px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+/* .MProfileById header .picture{
+    background-color: var(--primary-blue);
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 9px solid var(--secondary-gray);
+    margin: 50px auto 0 auto;
+} */
+/* .MProfileById header .picture p{
+    margin-top: 10px;
+} */
+.MProfileById header .username{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.MProfileById main h2{
+    margin: 30px 5px 20px 5px;
+}
+.MProfileById main .data-block{
+    padding:10px 5px;
+    width: calc(100% - 10px);
+    display: grid;
+    grid-template-columns: 100px 1fr ;
+    align-items: center;
+    z-index: -1;
+}
+.MProfileById main .odd{
+    background-color: #69696920;
+}
+.MProfileById main .data-block .value{
+    overflow: hidden;   /* hidde exedent text  */
+    text-overflow: ellipsis; /* add ... to end of the text */
+}
+
+/* .MProfileById footer{
+    height: 50px;
+}
+.MProfileById footer .MainButton{
+    display: block;
+    margin: 0 auto;
+} */
+
+@media (min-width: 700px) {
+    .MProfileById{
+        display: grid;
+        position: relative;
+        min-width: 700px;
+        max-width: 1400px;
+        margin: 0 auto;
+        grid-template-columns: auto 1fr;
+        padding: 0 10px;
+    }
+    .MProfileById .container{
+        overflow-y: auto;
+        height: calc(100vh - 3.7rem); /* 3.7 rems is NavBar container height this is for obtain the exact screen height and avoid overflow */
+    }
+}

@@ -1,11 +1,29 @@
-.ExamsPage .header{
+.ExamsPage .container .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2px;
     margin-bottom: .7rem;
 }
-.ExamsPage .header .title {
+.ExamsPage .container .header .title {
     color: var(--primary-gray);
     margin: 0;
+}
+@media (min-width: 700px) {
+    .ExamsPage{
+        display: grid;
+        position: relative;
+        /* width: 80%; */
+        min-width: 700px;
+        max-width: 1400px;
+        margin: 0 auto;
+        grid-template-columns: auto 1fr;
+        padding: 0 10px;
+    }
+    .ExamsPage .container .ExamCard {
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+
 }

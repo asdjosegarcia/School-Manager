@@ -1,0 +1,28 @@
+.SearchInput{
+    width: calc(100% - 20px );
+    border: 2px solid var(--primary-gray);
+    border-radius: 5px;
+    height: 2.7rem;
+    margin: 0 7px;
+    position: relative;
+}
+.SearchInput input{
+    height: 97%;
+    width: calc(100% - 40px);
+    font-size: 1.4rem;
+    position: absolute;
+    background-color: #00000000;
+    outline: none; 
+    border: none;
+    font-weight: 500;
+    color: var(--primary-gray);
+    white-space: nowrap; /* text doesn't go down */
+    overflow: hidden;   /* hidde exedent text  */
+    text-overflow: ellipsis; /* add ... to end of the text */
+
+}
+.SearchInput img{
+    position: absolute;
+    right: 5px;
+    top: .2rem;
+}

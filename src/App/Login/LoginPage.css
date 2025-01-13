@@ -9,20 +9,21 @@
 }
 
 .page-container h1{
-  font-weight: 400;
+  font-weight: 350;
   font-size: 50px;
   text-align: center;
   color: var(--primary-white);
   width: 400px;
-  margin: -15px;
+  margin: -10px;
 }
 
-.page-container p{
-  font-weight: 500;
+.page-container span{
+  font-weight: 350;
   font-size: 20px;
   text-align: center;
   color: var(--primary-white);
   width: 400px;
+  margin: 20px;
 }
   
 .login-form {

@@ -10,8 +10,8 @@
     gap: 4px;
 }
 .MainButton svg{
-    height: 1.6rem;
-    width: 1.6rem;
+    /* height: 1.6rem; */
+    /* width: 1.6rem; */
     fill: white;
     vertical-align: text-bottom;
 }

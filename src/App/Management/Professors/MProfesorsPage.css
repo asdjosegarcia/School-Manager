@@ -1,0 +1,17 @@
+.MProfesorsPage .header{
+    border: none;
+    margin-bottom: 10px;
+}
+.MProfesorsPage .MainButton{
+    width: 90%;
+    background-color: #17c500;
+    margin-top: 10px;
+    align-items: center;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.MProfesorsPage .professor-list{
+    border-top: 1px solid var(--tertiary-gray);
+}
+

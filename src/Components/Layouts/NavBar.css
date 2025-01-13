@@ -36,15 +36,23 @@
   font-size: 1.2rem;
   font-weight: 800;
 }
-@media (min-width: 600px) {
-    .NavBar{
-
-    }
+@media (min-width: 700px) {
   .NavBar .container {
-    width: 70%;
+    min-width: 700px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
+    padding: 0 10px;
     
+  }
+  .NavBar .container .menu-button{
+    visibility: hidden;
+  }
+  .NavBar .container .notification-span{
+    margin-right: 10px;
+  }
+  .NavBar .background.open{ /* to fix menu open */
+    display: none;
   }
 
 }
