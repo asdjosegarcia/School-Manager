@@ -27,3 +27,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* selectableOne: we can use this property in all sections of the app with className="selectableOne" to indicate to the user that it is clickable*/
+.selectableOne.selectableOne:hover{
+  transition: background-color 0.05s ease-in;
+  background-color: #00000000;
+  box-shadow: 0px 0px 5px #c9c9c9 inset;
+}
+.selectableOne.selectableOne:active{
+  background-color: #f1f1f1;
+}

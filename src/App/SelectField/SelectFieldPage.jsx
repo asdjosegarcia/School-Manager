@@ -15,7 +15,7 @@ const SelectFieldPage = () => {
 
     return (
         <>
-            <NavBar />
+            <NavBar  role={"management"}/>
             <div className='SelectFieldPage'>
                 <Menu></Menu>
                 <div className='container'>

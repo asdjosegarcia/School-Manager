@@ -14,7 +14,7 @@ const NotificationPage = () => {
 
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar  role={"management"}/>
             <div className='NotificationPage'>
                 <Menu />
                 <div className='container'>

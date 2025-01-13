@@ -1,0 +1,58 @@
+.MSubjectPageById .GenericHorizontalCard {
+  border-bottom: none;
+}
+.MSubjectPageById .subject-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  /* border-bottom: 1px solid var(--tertiary-gray); */
+  color: var(--primary-gray);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.MSubjectPageById .subject-card .image {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.MSubjectPageById .subject-card .name {
+  grid-row: 1/3;
+  grid-column: 2/4;
+  margin: 0;
+  margin: 5px 5px 0 0;
+  text-align: center;
+  /* margin  : 0; */
+}
+.MSubjectPageById .field .data{
+    font-size: 1.2rem;
+    color: #696969;
+    font-weight: 500;
+    /* padding-left: 5px; */
+    margin: 15px 5px;
+
+}
+
+.MSubjectPageById .main button {
+  width: 100%;
+  background-color: #00000000;
+  color: #696969;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 1px solid var(--tertiary-gray);
+}
+.MSubjectPageById .main button:first-child {
+  /* only firts buttom */
+  border: 1px solid var(--tertiary-gray);
+}
+
+

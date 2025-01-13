@@ -1,0 +1,12 @@
+.MSubjectsPage .field{
+    border: none;
+    margin-bottom: 10px;
+}
+.MSubjectsPage .field-list{
+    margin-top: 10px;
+}
+.MSubjectsPage .field-list::first-child{
+    border-top: 1px solid var(--tertiary-gray);
+
+
+}

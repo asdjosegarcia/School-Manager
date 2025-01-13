@@ -1,0 +1,12 @@
+import React from 'react'
+
+const FieldSVG = (props) => {
+    return (
+        <svg viewBox="0 0 65 66" width={props.width} height={props.height} fill={props.fill} className={props.className}>
+            <path d="M31.9539 57.9363L12.0597 47.0889V30.5889L1.34985 24.75L31.9539 8.04718L62.6501 24.75V46.8153H57.6444V27.5983L51.8598 30.5889V47.0889L31.9539 57.9363ZM31.9539 35.7507L52.1609 24.75L31.9539 13.8868L11.839 24.75L31.9539 35.7507ZM31.9539 52.2576L46.8438 44.088V33.4421L31.9539 41.4528L17.0647 33.3506V44.088L31.9539 52.2576Z" fill={props.fill} />
+        </svg>
+
+    )
+}
+
+export default FieldSVG

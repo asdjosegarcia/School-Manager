@@ -1,0 +1,11 @@
+.HeaderTitle header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    margin-bottom: 0.7rem;
+  }
+  .HeaderTitle header .title {
+    color: var(--primary-gray);
+    margin: 0;
+  }
