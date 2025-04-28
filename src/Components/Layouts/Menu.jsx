@@ -35,7 +35,6 @@ const Menu = (props) => {
                                     <img src="/icons/home.svg" alt="" />
                                     Inicio
                                 </button>
-
                                 <button onClick={() => navigate('/exams')}>
                                     <img src="/icons/calendar.svg" alt="" />
                                     Exámenes
