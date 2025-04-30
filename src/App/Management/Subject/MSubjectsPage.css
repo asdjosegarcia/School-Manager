@@ -10,3 +10,19 @@
 
 
 }
+
+@media (min-width: 700px) {
+    .MSubjectsPage {
+      display: grid;
+      position: relative;
+      min-width: 700px;
+      max-width: 1400px;
+      margin: 0 auto;
+      grid-template-columns: auto 1fr;
+      padding: 0 10px;
+    }
+    .MSubjectsPage .container{
+      position: relative;
+    }
+    
+  }
