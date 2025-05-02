@@ -12,12 +12,21 @@ https://www.figma.com/design/2tVqRnJSwKDfy7Z1FE1mx6/School-Manger-Mobile?node-id
 1)src/index.js       //contains all project routes
 2)src/normailize.css //this one is to see equal all styles from the page in a lot of web browsers
 3)src/app            //contains all pages from the app  faollowing the next estructure
-namePage(directory)
-    '-> namePage.jsx
-    '-> namePage.css
-    '-> New(directory to create a new item related with the page) 
-          '->newItem.jsx
-          '->newItem.css
+        '->namePage(directory)
+        '   '-> namePage.jsx
+        '   '-> namePage.css
+        '   '-> New(directory to create a new item related with the page) 
+        '         '->newItem.jsx
+        '         '->newItem.css
+        '->Management
+            '->namePage(directory)
+            '   '-> namePage.jsx
+            '   '-> namePage.css
+            '-> New(directory to create a new item related with the page) 
+                 '->newItem.jsx
+                 '->newItem.css
+
+
 4)src/Components      //containts all component to structure the same front end style throughout the aplication
         '->Buttons (Directory for buttons)
         '   '->NameButton.jsx
