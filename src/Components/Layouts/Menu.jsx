@@ -26,7 +26,7 @@ const Menu = (props) => {
                     {
                         (getRole !== "management") ?
                             <>
-                                <div className='header'>
+                                <div className='header'>{/* menu for common users/students */}
                                     <img className='close' src="/icons/back.svg" alt="" onClick={() => { props.setMenu(false) }} />
                                     <span className='title'>Instituto N°0000</span>
                                     <span className='user'>SMG Alumno</span>
@@ -58,7 +58,7 @@ const Menu = (props) => {
                             </>
                             :
                             <>
-                                <div className='header'>
+                                <div className='header'>{/* menu for magnament users */}
                                     <img className='close' src="/icons/back.svg" alt="" onClick={() => { props.setMenu(false) }} />
                                     <span className='title'>Instituto N°0000</span>
                                     <span className='user'>SMG Gestion</span>
